@@ -1,0 +1,4 @@
+output-file: sbom.spdx.json
+format: spdx-json
+# Path to scan for components. By default, scans current directory.
+# Supports various output formats like CycloneDX, SPDX.

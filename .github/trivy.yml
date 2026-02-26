@@ -1,0 +1,6 @@
+scan-type: 'fs'
+severity: 'HIGH,CRITICAL'
+format: 'table'
+output: 'trivy-scan-report.txt'
+# Scan the current filesystem for dependencies. Specify target if needed: --target .
+# Focus on high and critical severity vulnerabilities.

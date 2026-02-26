@@ -1,0 +1,5 @@
+[gitleaks]
+ignore-gitleaks-version = true
+incl_entropy = true
+# Additional config can be added here, e.g., allowlist/blocklist for specific patterns.
+# Ensure no false positives for test data or intentionally stored non-sensitive data.
